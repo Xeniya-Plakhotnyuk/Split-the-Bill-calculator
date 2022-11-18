@@ -4,6 +4,7 @@ body {
   background-size: cover;
   background-position: center;
   background-color: rgb(43, 30, 87);
+  opacity:50%;
 }
 
 #container {
