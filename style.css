@@ -4,8 +4,7 @@ body {
   background-size: cover;
   background-position: center;
   background-color: rgb(43, 30, 87);
-  opacity:50%;
-}
+  }
 
 #container {
   background-color: rgba(255, 124, 185, 0.747);
@@ -13,6 +12,7 @@ body {
   flex-direction: column;
   flex-wrap: wrap; 
  min-width: 400px;
+  opacity: 0.5;
   
   color:rgb(0, 31, 168);
  font-weight: bolder;
