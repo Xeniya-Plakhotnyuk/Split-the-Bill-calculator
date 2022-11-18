@@ -1,1 +1,1 @@
-# Splet-the-Bill-calculator
+# Split-the-Bill-calculator
