@@ -1,0 +1,123 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1638980304019-8259957f3b7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2371&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(43, 30, 87);
+}
+
+#container {
+  background-color: rgba(255, 124, 185, 0.747);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; 
+ min-width: 400px;
+  
+  color:rgb(0, 31, 168);
+ font-weight: bolder;
+ 
+}
+
+form {
+  font-family: 'Rubik', sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+}
+
+input {
+  font-family: 'Rubik', sans-serif;
+  padding: 10px;
+}
+h1, .thanks {
+  font-family: 'Lobster', cursive;
+  color: rgb(0, 31, 168);
+  font-size: clamp(2rem, 7rem);
+  display:flex;
+  justify-content: center;
+    }
+
+    .thanks{
+      display: none;
+      text-align: center;
+    }
+
+  
+#addTips {
+  background-color: rgb(20, 208, 214) ;
+  border: none;
+  padding: 5px;
+  font-family: 'Rubik', sans-serif;
+ 
+}
+
+#btn {
+    background-color: rgb(252, 252, 116);
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bolder;
+    }
+    #btn:hover{
+      background-color: rgb(248, 220, 65);
+          }
+    
+
+    #tip{
+        font-family: 'Rubik', sans-serif;
+        display: none;
+    }
+
+    #showTotalAmountToPay{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        
+    }
+    #billSplit, #totalTip, #totalAmount{
+        font-family: 'Rubik', sans-serif;
+        border-radius: 10px;
+        border: none;
+        margin: 20px;
+        padding: 20px;
+       background-color: rgb(20, 208, 214);
+    }
+
+    #addTips{
+  background-color: #1c87c9;
+  -webkit-border-radius: 60px;
+  border-radius: 60px;
+  border: none;
+  color: #9d0493;
+  cursor: pointer;
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 15px;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+    }
+
+    @keyframes glowing {
+      0% {
+        background-color: #06dbdb;
+        box-shadow: 0 0 3px #06dbdb;
+      }
+      50% {
+        background-color: #12ffff;
+        box-shadow: 0 0 10px #12ffff;
+      }
+      100% {
+        background-color: #06dbdb;
+        box-shadow: 0 0 3px #06dbdb;
+      }
+    }
+
+    #addTips {
+      animation: glowing 1700ms infinite;
+    }
+
+   
